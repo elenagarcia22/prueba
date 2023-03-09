@@ -1,0 +1,44 @@
+html{
+    text-justify: auto;
+    margin: " 50px 150px 20px ;";
+}
+.bloque{
+    background-color: rgb(246, 231, 212);
+    margin:20px;
+    padding: 3%;
+}
+header{
+    background-color: rgb(242, 151, 31);
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+img{
+    text-align: center;
+}
+ul.barra{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color: rgb(242, 151, 31);
+}
+li.barra{
+    float: left;
+}
+li.barra a{
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    margin: 10px;
+    color: aliceblue;
+
+}
+li.barra a:hover{
+    background-color:  rgb(129, 63, 33);
+}
+@media only screen and (max-width:736px) and (min-width:320px){
+    li.barra{
+        float: initial;
+    }
+}

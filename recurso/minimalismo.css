@@ -1,0 +1,93 @@
+html{text-justify: auto;
+    margin: " 50px 150px 20px ;";}
+h1{ 
+    background-color: rgb(242, 151, 31);
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color: rgb(242, 151, 31);
+}
+li{
+    float: left;
+}
+li a{
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    margin: 10px;
+    color: aliceblue;
+
+}
+li a:hover{
+    background-color:  rgb(129, 63, 33);
+}
+.resumen{
+    background-color: rgb(246, 231, 212);
+    float: left;
+    margin: 20px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(255, 202, 137);
+}
+.contenido{
+    background-color:rgb(255, 202, 137);
+    display: grid;
+    margin: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(255, 202, 137);
+}
+.pag1{
+    background-color: rgb(246, 231, 212);
+    margin: 10px;
+    padding: 10px;
+}
+.pag2{
+    background-color: rgb(246, 231, 212);
+    margin: 10px;
+    padding: 10px;
+}
+.pag3{
+    background-color: rgb(246, 231, 212);
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(242, 151, 31);
+    margin: auto;
+    padding: 10px;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}     
+@media only screen and (max-width:736px) and (min-width:320px){
+    li.barra{
+        float: initial;
+    }
+    img{
+        width: 200px;
+        height: 100px;
+    }
+    .contenido{
+        display: initial;
+        background-color: white;
+        border-color: white;
+    }
+    .pag1,.pag2,.pag3{
+        background-color: rgb(246, 231, 212);
+        margin: 10px;
+        padding: 10px;
+        border-style: solid;
+        border-color:  rgb(255, 202, 137);
+    }
+}
